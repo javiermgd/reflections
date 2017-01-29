@@ -1,7 +1,42 @@
 What happens when you initialize a repository? Why do you need to do it?
 
-    Add your answer here
+    An empty repo is created. Needed to set up a Git repo
 
-How is the staging area different from the working directory and the repository? What value do you think it offers?
+How is the staging area different from the working directory and the repository?
+What value do you think it offers?
 
-    Add your answer here
+    The staging area includes all mod files to be committed. It allows
+    selecting which modified files should be part of a commit and which should
+    be delayed or discarded
+
+How can you use the staging area to make sure you have one commit per logical
+change?
+
+    Yes, it's one of the benefits of the staging area
+
+What are some situations when branches would be helpful in keeping your history
+organized? How would branches help?
+
+    When working in new/experimental features. Branches allows to keep different
+    versions independent of each other
+
+How do the diagrams help you visualize the branch structure?
+
+    Gives a precise view of all branches, including detached heads, and
+    their corresponding commits
+
+What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+    Merging of two or more branches into a single branch, whose head pointing
+    back to the different merged branches
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+    Pros:
+        - Save time
+        - Avoid meetings among mod developers to resolve conflicts
+    Cons:
+        - Develop auto-merge tool
+        - Unresolved conflicts not handled by auto-merge tool
